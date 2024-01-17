@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interest Link</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="logo-container">
+            <img src="logo.jpg" alt="Interest Link Logo" id="logo">
+            <span id="site-name">Interest Link</span>
+        </div>
+        <button id="signup-btn">Sign Up</button>
+    </header>
+    <main>
+        <section id="content">
+            <div id="text-content">
+                <h1>Connect with Likeminded Friends</h1>
+                <p id="sub-text">Become friends with people that have similar values, morals, and hobbies</p>
+                <button id="learn-more-btn">Learn More</button>
+            </div>
+            <div id="image-content">
+                <img src="friends1.jpg" alt="Friends Image" id="main-img">
+            </div>
+        </section>
+        <section id="features">
+            <div class="feature">
+                <img src="heart.png" alt="Values" class="feature-icon">
+                <p>Connect with people who have similar values</p>
+            </div>
+            <div class="feature">
+                <img src="soccerball.png" alt="Hobbies" class="feature-icon">
+                <p>Connect with people who have similar hobbies</p>
+            </div>
+            <div class="feature">
+                <img src="handshake.png" alt="Lifestyles" class="feature-icon">
+                <p>Connect with people that have similar lifestyles</p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <!-- Include your existing header and main content here -->
+
+<!-- Filter section -->
+<section id="filters">
+    <h2>Find Friends</h2>
+    <div class="filter-option">
+        <label for="values">Values:</label>
+        <input type="text" id="values" name="values">
+    </div>
+    <div class="filter-option">
+        <label for="lifestyle">Lifestyle:</label>
+        <input type="text" id="lifestyle" name="lifestyle">
+    </div>
+    <div class="filter-option">
+        <label for="hobbies">Hobbies:</label>
+        <input type="text" id="hobbies" name="hobbies">
+    </div>
+    <button id="filter-btn">Search</button>
+</section>
+
+<!-- List of people -->
+<section id="people-list">
+    <h2>People</h2>
+    <!-- Each person's data would be inserted here, possibly using a script to generate the list from server-side data -->
+    <!-- Example static entry -->
+    <div class="person">
+        <p>Name: John</p>
+        <p>Age: 25</p>
+        <p>Gender: Male</p>
+    </div>
+    <!-- Repeat for each person -->
+</section>
+</body>
+</html>
+
+
