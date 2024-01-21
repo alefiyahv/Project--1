@@ -1,3 +1,14 @@
+function redirectToSignupPage() {
+    // Specifying the URL of the signup.html page
+    var signupPageUrl = "signup.html";
+
+    // Redirecting to the signup.html page
+    window.location.href = signupPageUrl;
+}
+
+// Attaching the function to the button click event
+document.getElementById("signup-btn").addEventListener("click", redirectToSignupPage);
+
 document.getElementById('learn-more-btn').addEventListener('click', function() {
     window.location.href = 'signup.html'; // Redirects to the sign-up page
 });
@@ -10,3 +21,4 @@ function handleSubmit() {
 }
 
 document.getElementById('signup-form').onsubmit = handleSubmit;
+
