@@ -220,4 +220,27 @@ h1 {
 }
 
 /* ... other styles ... */
+feature {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.feature-icon {
+    width: 60px; /* Standard size for all icons */
+    height: auto;
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+.feature p {
+    background-color: black; /* Black background for the text */
+    color: white; /* White text color for contrast */
+    padding: 10px 15px; /* Increased padding for a thicker appearance */
+    border-radius: 5px;
+    margin-top: 5px; /* Add space above the text if needed */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 
